@@ -4,7 +4,7 @@ For this exercise, you will have to build a simple e-commerce shopping cart.
 ## Provided Items
 
 ### Styles
-The CSS is provided for your convenience. It is up to you how you use these classes (feel free to rename the classes if necessary).
+The CSS is provided for your convenience. It is up to you how you use these classes (feel free to rename the selectors if necessary).
 
 ```css
  body {
