@@ -59,7 +59,7 @@ The CSS is provided for your convenience. It is up to you how you use these clas
 ```
 
 ### Product List
-A sample product list in the form of a JS array (_not_ JSON!) as a named export has been provided as well.
+A sample product list in the form of a JS array (_not_ JSON!) as a named export has been provided as well (you can assume the `id` field will always have unique values).
 
 ```javascript
 export const products = [
