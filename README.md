@@ -11,7 +11,22 @@ For this exercise, you will have to build a simple e-commerce shopping cart.
 4. 
 ## Provided Items
 
+### Product List
+A sample product list in the form of a JS array (_not_ JSON!) has been provided to you (you can assume the `id` field will always have unique values).
+
+```javascript
+const products = [
+  { id: 1, caption: 'T-Shirt', price: 500 },
+  { id: 2, caption: 'Shirt', price: 1000 },
+  { id: 3, caption: 'Trousers', price: 1000 },
+  { id: 4, caption: 'Jeans', price: 1500 },
+  { id: 5, caption: 'Dress', price: 5500 },
+  { id: 6, caption: 'Suit', price: 7500 }
+]
+```
+
 ### Styles
+
 The CSS is provided for your convenience. It is up to you how you use these classes (feel free to rename the selectors if necessary).
 
 ```css
@@ -64,20 +79,6 @@ The CSS is provided for your convenience. It is up to you how you use these clas
   right: 8px;
   font-size: smaller;
  }
-```
-
-### Product List
-A sample product list in the form of a JS array (_not_ JSON!) as a named export has been provided as well (you can assume the `id` field will always have unique values).
-
-```javascript
-export const products = [
-  { id: 1, caption: 'T-Shirt', price: 500 },
-  { id: 2, caption: 'Shirt', price: 1000 },
-  { id: 3, caption: 'Trousers', price: 1000 },
-  { id: 4, caption: 'Jeans', price: 1500 },
-  { id: 5, caption: 'Dress', price: 5500 },
-  { id: 6, caption: 'Suit', price: 7500 }
-]
 ```
 
 ## Notes
