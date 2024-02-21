@@ -1,6 +1,14 @@
 # Exercise
 For this exercise, you will have to build a simple e-commerce shopping cart.
 
+## Requirements
+1. Implement a React application that shows information on the products and the shopping cart.
+2. The following three components must be implemented:
+   - `ProductList`: A component displaying product cards.
+   - `ProductCard`: A component for an individual product card, displaying the caption and the price. It should have a button that can be clicked to add the product to the cart. (An item can be added multiple times)
+   - `Cart`: A component that displays the number of items in cart, e.g. "6 items"
+3. Use either Redux or React Context (and Reducer if necessary) to achieve state sharing among components.
+4. 
 ## Provided Items
 
 ### Styles
@@ -71,14 +79,6 @@ export const products = [
   { id: 6, caption: 'Suit', price: 7500 }
 ]
 ```
-
-## Requirements
-1. Implement a React application that shows information on the products and the shopping cart.
-2. The following three components must be implemented:
-   - `ProductList`: A component displaying product cards.
-   - `ProductCard`: A component for an individual product card, displaying the caption and the price. It should have a button that can be clicked to add the product to the cart. (An item can be added multiple times)
-   - `Cart`: A component that displays the number of items in cart, e.g. "6 items"
-3. Use either Redux or React Context (and Reducer if necessary) to achieve state sharing among components.
 
 ## Notes
 1. Looking up help online is okay, but full screen sharing must be on. Only static resources may be consulted. No help should be sought live, from another person online.
