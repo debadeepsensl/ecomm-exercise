@@ -32,6 +32,7 @@ The CSS is provided for your convenience. It is up to you how you use these clas
 ```css
  body {
   background-color: #ddd;
+  color: #222;
   display: flex;
   justify-content: center;
  }
