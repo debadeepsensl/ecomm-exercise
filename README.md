@@ -4,7 +4,7 @@ For this exercise, you will have to build a simple e-commerce shopping cart.
 ## Requirements
 1. Implement a React application that shows information on the products and the shopping cart.
 2. The following three components must be implemented:
-   - `ProductList`: A component displaying product cards.
+   - `ProductList`: A component displaying a list of product cards. Use the appropriate CSS classes from the styles provided.
    - `ProductCard`: A component for an individual product card, displaying the caption and the price. It should have a button that can be clicked to add the product to the cart. (An item can be added multiple times)
    - `Cart`: A component that displays the number of items in cart, e.g. "6 items"
 3. Use either Redux or React Context (and Reducer if necessary) to achieve state sharing among components.
